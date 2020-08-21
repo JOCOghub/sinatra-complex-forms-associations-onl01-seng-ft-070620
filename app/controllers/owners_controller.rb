@@ -11,7 +11,7 @@ class OwnersController < ApplicationController
 
   post '/owners' do 
     @pets = Pet.all
-  erb :'/owners/new'
+    erb :'/owners/new'
   end
 
   get '/owners/:id/edit' do 
